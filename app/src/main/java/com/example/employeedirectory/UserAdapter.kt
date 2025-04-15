@@ -34,7 +34,7 @@ class UserAdapter(private val context: Context, private val userList: List<User>
         tvName.text = "${user.first_name} ${user.last_name}"
         tvEmail.text = user.email
 
-        // Avatar URL pattern (example or fallback to placeholder)
+
         val avatarUrl = "https://reqres.in/img/faces/${user.id}-image.jpg"
 
         Glide.with(context)

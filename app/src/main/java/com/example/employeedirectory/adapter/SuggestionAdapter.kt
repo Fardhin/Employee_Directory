@@ -40,10 +40,8 @@ class SuggestionAdapter(
 
         tvName.text = "${user.first_name} ${user.last_name}"
         tvEmail.text = user.email
-
-        // Optional: Set avatar image (if available)
         Glide.with(context)
-            .load(user.avatar) // assumes you have a 'avatar' field
+            .load(user.avatar)
             .placeholder(R.drawable.ic_avatar_placeholder)
             .into(avatarImageView)
 

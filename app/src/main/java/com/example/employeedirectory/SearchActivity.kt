@@ -31,19 +31,18 @@ class SearchActivity : AppCompatActivity() {
         adapter = SuggestionAdapter(this, emptyList()) // Start with no suggestions
         suggestionList.adapter = adapter
 
-        // Back button inside the search bar
+
         searchInputLayout.setStartIconOnClickListener {
             finish()
         }
 
-        // Show keyboard automatically
         searchInput.requestFocus()
         searchInput.postDelayed({
             val imm = getSystemService(INPUT_METHOD_SERVICE) as InputMethodManager
             imm.showSoftInput(searchInput, InputMethodManager.SHOW_IMPLICIT)
         }, 200)
 
-        // Handle text change
+
         searchInput.addTextChangedListener(object : TextWatcher {
             override fun afterTextChanged(s: Editable?) {
                 val query = s.toString()

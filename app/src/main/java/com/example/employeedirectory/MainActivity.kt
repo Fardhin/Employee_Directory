@@ -41,7 +41,7 @@ class MainActivity : AppCompatActivity() {
         etSearch.isFocusable = false
         etSearch.isCursorVisible = false
 
-        // Open SearchActivity on click
+
         etSearch.setOnClickListener {
             val intent = Intent(this@MainActivity, SearchActivity::class.java)
             intent.putParcelableArrayListExtra("userList", ArrayList(userList))
@@ -55,8 +55,6 @@ class MainActivity : AppCompatActivity() {
         }
 
         fetchUsers()
-
-        // Optional: keeping this here for in-place search if needed
         etSearch.addTextChangedListener(object : TextWatcher {
             override fun afterTextChanged(s: Editable?) {
                 val query = s.toString()

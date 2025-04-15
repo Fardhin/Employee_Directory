@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/gradient_background">
 
-    <!-- Search bar with back icon -->
+
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/searchInputLayout"
         android:layout_width="match_parent"
@@ -36,7 +36,7 @@
             android:textColorHint="#999999" />
     </com.google.android.material.textfield.TextInputLayout>
 
-    <!-- List of suggestions -->
+
     <ListView
         android:id="@+id/suggestionList"
         android:layout_width="match_parent"
