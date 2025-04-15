@@ -12,7 +12,7 @@ _A modern employee directory app built with Kotlin and Jetpack Compose._
 ## 📸 Screenshots
 | Splash Screen | Home Screen | Search Screen |
 |--------------|-------------|---------------|
-| <img src="images/splash_screen.png" width="200"> | <img src="images/home_screen.png" width="200"> | <img src="images/search_screen.png" width="200"> |
+| <img src="images/Screenshot_20250415_121604.png" width="200"> | <img src="images/Screenshot_20250415_121640.png" width="200"> | <img src="images/Screenshot_20250415_121707.png" width="200"> |
 
 ## 🛠️ Tech Stack
 - **Frontend:** Kotlin, XML
@@ -47,5 +47,5 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## 📬 Contact
 📧 **Fardhin Ahamad** - [LinkedIn](https://www.linkedin.com/in/shaik-fardhin-ahamad-2a56b6288/)  
-🌐 **GitHub Repository**: [Real-Time-ChatApp](https://github.com/Fardhin/Employee_Directory)
+🌐 **GitHub Repository**: [Employee-Directory](https://github.com/Fardhin/Employee_Directory)
 
